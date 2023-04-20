@@ -6,11 +6,15 @@ I'd never make anything like this again but it was pretty nice as a one of my fi
 
 I was kinda proud of myself back then :D
 
+---
+
 The goal of the project was to make Windows Form App that will use WCF services.
 
 I have used 8 services which i hosted on my custom server and 3 Microsoft SQL databases.
 
-Application I have created is basicly fully functional librarry with both admin and user panel.
+Application I have created is basically fully functional library with both admin, guest and user panel.
+
+---
 
 I used data scrapping to create my books dataset. There are:
 - over 34k books
