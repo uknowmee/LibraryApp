@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="25903aa3-eff3-43ca-b2ed-84d85f27a086" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/CurrencyCalculator/ServiceCurrencyCalculator/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="563c9812-63b5-4521-9047-009c12b00b81" SourceId="1" SourceUrl="http://localhost:8733/CurrencyCalculator/ServiceCurrencyCalculator/?xsd=xsd3" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="26feaa4e-ebf7-42cd-bf5f-f503ba04f8e7" SourceId="1" SourceUrl="http://localhost:8733/CurrencyCalculator/ServiceCurrencyCalculator/?xsd=xsd1" />
+    <MetadataFile FileName="ServiceCurrencyCalculator.wsdl" MetadataType="Wsdl" ID="ee8b1519-4fd5-44c5-9b22-e84de549e65c" SourceId="1" SourceUrl="http://localhost:8733/CurrencyCalculator/ServiceCurrencyCalculator/?wsdl" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="f8542cbf-767b-418e-be07-c112a513e1fd" SourceId="1" SourceUrl="http://localhost:8733/CurrencyCalculator/ServiceCurrencyCalculator/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="d1cd3308-deb5-40a0-af89-fe97019ef9ce" SourceId="1" SourceUrl="http://localhost:8733/CurrencyCalculator/ServiceCurrencyCalculator/?disco" />
+    <MetadataFile FileName="item21.xsd" MetadataType="Schema" ID="1416cb23-f983-4d7a-88ce-b4174ad99986" SourceId="1" SourceUrl="http://localhost:8733/CurrencyCalculator/ServiceCurrencyCalculator/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

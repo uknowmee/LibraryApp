@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="IsBookDeleted">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsBookDeletedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsBookDeletedResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteBook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteBookResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteBookResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RestoreBook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RestoreBookResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RestoreBookResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewBook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="textBoxRating" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxLanguage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxRates" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxAuthor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxPrice" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxCharacters" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxGenres" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxSetting" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxDescription" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxTitle" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxSeries" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxFormat" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxPublisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxLink" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewBookResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditBook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bookId" type="xs:int" />
+        <xs:element minOccurs="0" name="textBoxRating" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxLanguage" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxRates" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxAuthor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxPrice" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxCharacters" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxGenres" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxSetting" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxDescription" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxTitle" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxSeries" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxFormat" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxPublisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="textBoxLink" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditBookResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

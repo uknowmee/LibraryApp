@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="b30bf68a-9167-4327-a6a2-5dc35761fccd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Rent/ServiceRent/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="66ad6d60-3238-44ea-8347-9eeed6af2bba" SourceId="1" SourceUrl="http://localhost:8733/Rent/ServiceRent/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="ce08639f-26aa-47e6-a3ca-c173d97832d7" SourceId="1" SourceUrl="http://localhost:8733/Rent/ServiceRent/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="e5f2d3d2-c743-4b0e-a5d6-e46d4ad67f74" SourceId="1" SourceUrl="http://localhost:8733/Rent/ServiceRent/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="e6acbb0d-c00d-4fba-a838-671d98309cbb" SourceId="1" SourceUrl="http://localhost:8733/Rent/ServiceRent/?xsd=xsd2" />
+    <MetadataFile FileName="ServiceRent.wsdl" MetadataType="Wsdl" ID="30ffe762-4b85-4843-84cf-927007129f45" SourceId="1" SourceUrl="http://localhost:8733/Rent/ServiceRent/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

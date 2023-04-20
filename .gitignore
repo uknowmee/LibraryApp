@@ -1,0 +1,8 @@
+.idea/
+packages/
+bin/
+obj/
+Migrations/
+.suo
+.vs/
+*/BooksPictures/*
